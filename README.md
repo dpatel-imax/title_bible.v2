@@ -4,7 +4,7 @@ This project provides a simple command-line tool that loads a movie dataset from
 
 ## Usage
 1. Place your movie dataset CSV file in this directory and name it `movies_dataset.csv`.
-2. Ensure the CSV contains columns for release year (e.g., `year`, `release_year`, or `release_date`) and worldwide revenue (e.g., `revenue`, `worldwide_gross`, or `gross`).
+2. Ensure the CSV contains a column that includes "year" (e.g., `year`, `release_year`, or `release_date`) and a column for revenue such as `revenue`, `gross`, or `box_office`. The script will try to detect these automatically.
 3. Run the program:
    ```bash
    python3 main.py
